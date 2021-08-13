@@ -1,2 +1,2 @@
 # travis-tool-enablement
-Features of travis-ci
+This repo contains the part of the lxd used in development
