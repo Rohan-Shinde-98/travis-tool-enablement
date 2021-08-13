@@ -1,0 +1,1512 @@
+[1;32mlxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: output will be in this color.[0m
+
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Creating container...[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Uploading files/common-lib.sh => /tmp/__common-lib.sh[0m
+common-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [============================================================================================================================] 100.00%
+[1Acommon-lib.sh 1.01 KiB / 1.01 KiB [=========================================================================================================================] 100.00% 3s
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Uploading files/sources.list => /etc/apt/sources.list[0m
+sources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [===================================================================================================================================] 100.00%
+[1Asources.list 209 B / 209 B [================================================================================================================================] 100.00% 5s
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/base.sh[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Acquire::ForceIPv4 "true";[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dpkg: warning: cannot remove non-foreign architecture 'i386'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Hit:1 http://ports.ubuntu.com/ubuntu-ports bionic InRelease[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease [88.7 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease [88.7 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el Packages [8260 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic/universe Translation-en [4941 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/multiverse ppc64el Packages [133 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic/multiverse Translation-en [108 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:8 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el Packages [1091 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:9 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main Translation-en [421 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:10 http://ports.ubuntu.com/ubuntu-ports bionic-updates/restricted Translation-en [52.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el Packages [1393 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:12 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe Translation-en [371 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates/multiverse ppc64el Packages [4632 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:14 http://ports.ubuntu.com/ubuntu-ports bionic-updates/multiverse Translation-en [6792 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:15 http://ports.ubuntu.com/ubuntu-ports bionic-security/main ppc64el Packages [797 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:16 http://ports.ubuntu.com/ubuntu-ports bionic-security/main Translation-en [326 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:17 http://ports.ubuntu.com/ubuntu-ports bionic-security/universe ppc64el Packages [868 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:18 http://ports.ubuntu.com/ubuntu-ports bionic-security/universe Translation-en [255 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:19 http://ports.ubuntu.com/ubuntu-ports bionic-security/multiverse ppc64el Packages [2728 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:20 http://ports.ubuntu.com/ubuntu-ports bionic-security/multiverse Translation-en [4412 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 19.2 MB in 14s (1402 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 15 packages can be upgraded. Run 'apt list --upgradable' to see them.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: fuse is already the newest version (2.9.7-1ubuntu1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: fuse set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: curl is already the newest version (7.58.0-2ubuntu3.13).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: curl set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dnsutils is already the newest version (1:9.11.3+dfsg-1ubuntu1.15).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dnsutils set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: git is already the newest version (1:2.17.1-1ubuntu0.8).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: git set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gnupg is already the newest version (2.2.4-1ubuntu1.4).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gnupg set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: openssl is already the newest version (1.1.1-1ubuntu2.1~18.04.9).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: openssl set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: software-properties-common is already the newest version (0.96.24.32.14).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: software-properties-common set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: wget is already the newest version (1.19.4-1ubuntu2.2).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: wget set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following additional packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libruby2.5 rake ruby-did-you-mean ruby-minitest ruby-net-telnet[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   ruby-power-assert ruby-test-unit ruby2.5 rubygems-integration[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   ri ruby-dev bundler zenity | kdialog[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Recommended packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   zip fonts-lato libjs-jquery[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   hashdeep libruby2.5 md5deep rake ruby ruby-did-you-mean ruby-minitest[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   ruby-net-telnet ruby-power-assert ruby-test-unit ruby2.5[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   rubygems-integration[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following packages will be upgraded:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   snapd[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 1 upgraded, 12 newly installed, 0 to remove and 14 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 23.8 MB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 27.1 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el hashdeep ppc64el 4.4-4 [130 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el rubygems-integration all 1.11 [4994 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el ruby2.5 ppc64el 2.5.1-1ubuntu1.9 [48.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby ppc64el 1:2.5.1 [5716 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el rake all 12.3.1-1ubuntu0.1 [44.9 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby-did-you-mean all 1.2.0-2 [9700 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby-minitest all 5.10.3-1 [38.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:8 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby-net-telnet all 0.1.1-2 [12.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:9 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby-power-assert all 0.3.0-1 [7952 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:10 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ruby-test-unit all 3.2.5-1 [61.1 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libruby2.5 ppc64el 2.5.1-1ubuntu1.9 [3182 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:12 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el md5deep all 4.4-4 [2922 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el snapd ppc64el 2.49.2+18.04 [20.2 MB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 23.8 MB in 2s (11.6 MB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package hashdeep.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 28957 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../00-hashdeep_4.4-4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking hashdeep (4.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package rubygems-integration.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../01-rubygems-integration_1.11_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking rubygems-integration (1.11) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby2.5.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../02-ruby2.5_2.5.1-1ubuntu1.9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby2.5 (2.5.1-1ubuntu1.9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../03-ruby_1%3a2.5.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby (1:2.5.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package rake.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../04-rake_12.3.1-1ubuntu0.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking rake (12.3.1-1ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby-did-you-mean.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../05-ruby-did-you-mean_1.2.0-2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby-did-you-mean (1.2.0-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby-minitest.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../06-ruby-minitest_5.10.3-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby-minitest (5.10.3-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby-net-telnet.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../07-ruby-net-telnet_0.1.1-2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby-net-telnet (0.1.1-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby-power-assert.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../08-ruby-power-assert_0.3.0-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby-power-assert (0.3.0-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ruby-test-unit.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../09-ruby-test-unit_3.2.5-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ruby-test-unit (3.2.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libruby2.5:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../10-libruby2.5_2.5.1-1ubuntu1.9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libruby2.5:ppc64el (2.5.1-1ubuntu1.9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package md5deep.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../11-md5deep_4.4-4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking md5deep (4.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../12-snapd_2.49.2+18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking snapd (2.49.2+18.04) over (2.48.3+18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up hashdeep (4.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up snapd (2.49.2+18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: snapd.failure.service is a disabled or a static unit, not starting it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: snapd.snap-repair.service is a disabled or a static unit, not starting it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby-did-you-mean (1.2.0-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby-net-telnet (0.1.1-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up rubygems-integration (1.11) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby-minitest (5.10.3-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby-power-assert (0.3.0-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up md5deep (4.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby-test-unit (3.2.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libruby2.5:ppc64el (2.5.1-1ubuntu1.9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby2.5 (2.5.1-1ubuntu1.9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ruby (1:2.5.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up rake (12.3.1-1ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for dbus (1.12.2-1ubuntu1.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for mime-support (3.60ubuntu1) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Calculating upgrade...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following packages will be upgraded:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   cloud-init libhogweed4 libnettle6 libnss-systemd libpam-systemd libsystemd0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libudev1 libxml2 squashfs-tools systemd systemd-sysv ubuntu-advantage-tools[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   udev update-notifier-common[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 7060 kB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 693 kB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libnss-systemd ppc64el 237-3ubuntu10.48 [117 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libsystemd0 ppc64el 237-3ubuntu10.48 [227 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libpam-systemd ppc64el 237-3ubuntu10.48 [120 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el systemd ppc64el 237-3ubuntu10.48 [3126 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el udev ppc64el 237-3ubuntu10.48 [1152 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libudev1 ppc64el 237-3ubuntu10.48 [63.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el systemd-sysv ppc64el 237-3ubuntu10.48 [15.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:8 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el update-notifier-common all 3.192.1.11 [133 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:9 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libnettle6 ppc64el 3.4.1-0ubuntu0.18.04.1 [139 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:10 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libhogweed4 ppc64el 3.4.1-0ubuntu0.18.04.1 [138 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libxml2 ppc64el 2.9.4+dfsg1-6.1ubuntu1.4 [615 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:12 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el ubuntu-advantage-tools ppc64el 27.1~18.04.1 [623 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el squashfs-tools ppc64el 1:4.3-6ubuntu0.18.04.2 [131 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:14 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el cloud-init all 21.2-3-g899bfaa9-0ubuntu2~18.04.1 [458 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preconfiguring packages ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 7060 kB in 2s (4454 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30208 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libnss-systemd_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libnss-systemd:ppc64el (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libsystemd0_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libsystemd0:ppc64el (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libsystemd0:ppc64el (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30208 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libpam-systemd_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpam-systemd:ppc64el (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../systemd_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking systemd (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../udev_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking udev (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libudev1_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libudev1:ppc64el (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libudev1:ppc64el (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up systemd (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30208 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../systemd-sysv_237-3ubuntu10.48_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking systemd-sysv (237-3ubuntu10.48) over (237-3ubuntu10.47) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../update-notifier-common_3.192.1.11_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking update-notifier-common (3.192.1.11) over (3.192.1.10) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libnettle6_3.4.1-0ubuntu0.18.04.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libnettle6:ppc64el (3.4.1-0ubuntu0.18.04.1) over (3.4-1ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libnettle6:ppc64el (3.4.1-0ubuntu0.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30208 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libhogweed4_3.4.1-0ubuntu0.18.04.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libhogweed4:ppc64el (3.4.1-0ubuntu0.18.04.1) over (3.4-1ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libhogweed4:ppc64el (3.4.1-0ubuntu0.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30208 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libxml2_2.9.4+dfsg1-6.1ubuntu1.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxml2:ppc64el (2.9.4+dfsg1-6.1ubuntu1.4) over (2.9.4+dfsg1-6.1ubuntu1.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../ubuntu-advantage-tools_27.1~18.04.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ubuntu-advantage-tools (27.1~18.04.1) over (27.0.2~18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../squashfs-tools_1%3a4.3-6ubuntu0.18.04.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking squashfs-tools (1:4.3-6ubuntu0.18.04.2) over (1:4.3-6ubuntu0.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../cloud-init_21.2-3-g899bfaa9-0ubuntu2~18.04.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking cloud-init (21.2-3-g899bfaa9-0ubuntu2~18.04.1) over (21.1-19-gbad84ad4-0ubuntu1~18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ubuntu-advantage-tools (27.1~18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libnss-systemd:ppc64el (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up update-notifier-common (3.192.1.11) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up systemd-sysv (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxml2:ppc64el (2.9.4+dfsg1-6.1ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up squashfs-tools (1:4.3-6ubuntu0.18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up udev (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-initramfs: deferring update (trigger activated)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up cloud-init (21.2-3-g899bfaa9-0ubuntu2~18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing new version of config file /etc/cloud/templates/chef_client.rb.tmpl ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpam-systemd:ppc64el (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for dbus (1.12.2-1ubuntu1.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for rsyslog (8.32.0-1ubuntu4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for ureadahead (0.100.0-21) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for initramfs-tools (0.130ubuntu3.12) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following additional packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libpython-stdlib libpython2.7-minimal libpython2.7-stdlib python[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python-json-pointer python-minimal python2.7 python2.7-minimal[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python-doc python-tk python2.7-doc binutils binfmt-support[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libpython-stdlib libpython2.7-minimal libpython2.7-stdlib python[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python-json-pointer python-jsonpatch python-minimal python2.7[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python2.7-minimal[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 9 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 4231 kB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 19.5 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libpython2.7-minimal ppc64el 2.7.17-1~18.04ubuntu1.6 [335 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el python2.7-minimal ppc64el 2.7.17-1~18.04ubuntu1.6 [1443 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el python-minimal ppc64el 2.7.15~rc1-1 [28.1 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libpython2.7-stdlib ppc64el 2.7.17-1~18.04ubuntu1.6 [2008 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el python2.7 ppc64el 2.7.17-1~18.04ubuntu1.6 [248 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libpython-stdlib ppc64el 2.7.15~rc1-1 [7624 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el python ppc64el 2.7.15~rc1-1 [140 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:8 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el python-json-pointer all 1.10-1 [7396 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:9 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el python-jsonpatch all 1.19+really1.16-1fakesync1 [13.3 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 4231 kB in 1s (2918 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpython2.7-minimal:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30210 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../0-libpython2.7-minimal_2.7.17-1~18.04ubuntu1.6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpython2.7-minimal:ppc64el (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python2.7-minimal.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../1-python2.7-minimal_2.7.17-1~18.04ubuntu1.6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python2.7-minimal (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python-minimal.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python-minimal (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpython2.7-stdlib:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../3-libpython2.7-stdlib_2.7.17-1~18.04ubuntu1.6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpython2.7-stdlib:ppc64el (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python2.7.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../4-python2.7_2.7.17-1~18.04ubuntu1.6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python2.7 (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpython-stdlib:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpython-stdlib:ppc64el (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpython2.7-minimal:ppc64el (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python2.7-minimal (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python-minimal (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 30958 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../python_2.7.15~rc1-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python-json-pointer.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../python-json-pointer_1.10-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python-json-pointer (1.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python-jsonpatch.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../python-jsonpatch_1.19+really1.16-1fakesync1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python-jsonpatch (1.19+really1.16-1fakesync1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpython2.7-stdlib:ppc64el (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python2.7 (2.7.17-1~18.04ubuntu1.6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpython-stdlib:ppc64el (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python (2.7.15~rc1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python-json-pointer (1.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/python2-jsonpointer to provide /usr/bin/jsonpointer (jsonpointer) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python-jsonpatch (1.19+really1.16-1fakesync1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/python2-jsondiff to provide /usr/bin/jsondiff (jsondiff) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/python2-jsonpatch to provide /usr/bin/jsonpatch (jsonpatch) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for mime-support (3.60ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: APT::Get::Assume-Yes "true";[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: travis ALL=(ALL) NOPASSWD:ALL[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Defaults !authenticate[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Defaults !env_reset[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Defaults !mail_badpass[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: manage_etc_hosts: true[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/minimal.sh[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + source /tmp/__common-lib.sh[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + export DEBIAN_FRONTEND=noninteractive[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + DEBIAN_FRONTEND=noninteractive[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + apt-get install mercurial subversion git -y --no-install-recommends[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: git is already the newest version (1:2.17.1-1ubuntu0.8).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following additional packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libapr1 libaprutil1 libserf-1-1 libsvn1 mercurial-common[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   kdiff3 | kdiff3-qt | kompare | meld | tkcvs | mgdiff qct python-mysqldb[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python-openssl python-pygments wish db5.3-util libapache2-mod-svn[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   subversion-tools[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libapr1 libaprutil1 libserf-1-1 libsvn1 mercurial mercurial-common[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   subversion[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 4729 kB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 25.3 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libapr1 ppc64el 1.6.3-2 [92.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libaprutil1 ppc64el 1.6.1-2 [91.7 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el libserf-1-1 ppc64el 1.3.9-6 [43.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el libsvn1 ppc64el 1.9.7-4ubuntu1 [1252 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el mercurial-common all 4.5.3-1ubuntu2.1 [2198 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el mercurial ppc64el 4.5.3-1ubuntu2.1 [207 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el subversion ppc64el 1.9.7-4ubuntu1 [843 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 4729 kB in 1s (3173 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libapr1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 31035 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../0-libapr1_1.6.3-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libapr1:ppc64el (1.6.3-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libaprutil1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../1-libaprutil1_1.6.1-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libaprutil1:ppc64el (1.6.1-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libserf-1-1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../2-libserf-1-1_1.3.9-6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libserf-1-1:ppc64el (1.3.9-6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libsvn1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../3-libsvn1_1.9.7-4ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libsvn1:ppc64el (1.9.7-4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package mercurial-common.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../4-mercurial-common_4.5.3-1ubuntu2.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking mercurial-common (4.5.3-1ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package mercurial.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../5-mercurial_4.5.3-1ubuntu2.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking mercurial (4.5.3-1ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package subversion.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../6-subversion_1.9.7-4ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking subversion (1.9.7-4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libapr1:ppc64el (1.6.3-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up mercurial-common (4.5.3-1ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up mercurial (4.5.3-1ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Creating config file /etc/mercurial/hgrc.d/hgext.rc with new version[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libaprutil1:ppc64el (1.6.1-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libserf-1-1:ppc64el (1.3.9-6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libsvn1:ppc64el (1.9.7-4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up subversion (1.9.7-4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + apt-get install gcc clang make autotools-dev cmake scons ccache -y --no-install-recommends[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following additional packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   binutils binutils-common binutils-powerpc64le-linux-gnu clang-6.0 cmake-data[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   cpp cpp-7 gcc-7 gcc-7-base libarchive13 libasan4 libatomic1 libbinutils[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libc-dev-bin libc6-dev libcc1-0 libclang-common-6.0-dev libclang1-6.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libgc1c2 libgcc-7-dev libgomp1 libisl19 libitm1 libjsoncpp1 libllvm6.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   liblsan0 libmpc3 libobjc-7-dev libobjc4 librhash0 libstdc++-7-dev libtsan0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libubsan0 linux-libc-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   binutils-doc distcc gnustep gnustep-devel clang-6.0-doc cmake-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   ninja-build cpp-doc gcc-7-locales gcc-multilib manpages-dev autoconf[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   automake libtool flex bison gdb gcc-doc gcc-7-doc libgcc1-dbg libgomp1-dbg[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libitm1-dbg libatomic1-dbg libasan4-dbg liblsan0-dbg libtsan0-dbg[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libubsan0-dbg libcilkrts5-dbg libmpx2-dbg libquadmath0-dbg lrzip glibc-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libstdc++-7-doc make-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Recommended packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   llvm-6.0-dev libomp-dev manpages-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   autotools-dev binutils binutils-common binutils-powerpc64le-linux-gnu ccache[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   clang clang-6.0 cmake cmake-data cpp cpp-7 gcc gcc-7 gcc-7-base libarchive13[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libasan4 libatomic1 libbinutils libc-dev-bin libc6-dev libcc1-0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libclang-common-6.0-dev libclang1-6.0 libgc1c2 libgcc-7-dev libgomp1[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libisl19 libitm1 libjsoncpp1 libllvm6.0 liblsan0 libmpc3 libobjc-7-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libobjc4 librhash0 libstdc++-7-dev libtsan0 libubsan0 linux-libc-dev make[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   scons[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 41 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 66.4 MB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 334 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el autotools-dev all 20180224.1 [39.6 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el binutils-common ppc64el 2.30-21ubuntu1~18.04.5 [197 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libbinutils ppc64el 2.30-21ubuntu1~18.04.5 [457 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el binutils-powerpc64le-linux-gnu ppc64el 2.30-21ubuntu1~18.04.5 [1989 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el binutils ppc64el 2.30-21ubuntu1~18.04.5 [3388 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el ccache ppc64el 3.4.1-1 [118 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:7 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libjsoncpp1 ppc64el 1.7.4-3 [79.0 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:8 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libllvm6.0 ppc64el 1:6.0-1ubuntu2 [13.6 MB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:9 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el gcc-7-base ppc64el 7.5.0-3ubuntu1~18.04 [18.3 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:10 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libgomp1 ppc64el 8.4.0-1ubuntu1~18.04 [80.1 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libitm1 ppc64el 8.4.0-1ubuntu1~18.04 [29.3 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:12 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libatomic1 ppc64el 8.4.0-1ubuntu1~18.04 [9892 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libasan4 ppc64el 7.5.0-3ubuntu1~18.04 [366 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:14 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el liblsan0 ppc64el 8.4.0-1ubuntu1~18.04 [145 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:15 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libtsan0 ppc64el 8.4.0-1ubuntu1~18.04 [297 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:16 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libubsan0 ppc64el 7.5.0-3ubuntu1~18.04 [136 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:17 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libgcc-7-dev ppc64el 7.5.0-3ubuntu1~18.04 [985 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:18 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libc-dev-bin ppc64el 2.27-3ubuntu1.4 [69.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:19 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el linux-libc-dev ppc64el 4.15.0-147.151 [983 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:20 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libc6-dev ppc64el 2.27-3ubuntu1.4 [2557 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:21 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libstdc++-7-dev ppc64el 7.5.0-3ubuntu1~18.04 [1539 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:22 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libgc1c2 ppc64el 1:7.4.2-8ubuntu1 [76.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:23 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libobjc4 ppc64el 8.4.0-1ubuntu1~18.04 [54.5 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:24 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libobjc-7-dev ppc64el 7.5.0-3ubuntu1~18.04 [216 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:25 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el libclang-common-6.0-dev ppc64el 1:6.0-1ubuntu2 [1810 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:26 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libclang1-6.0 ppc64el 1:6.0-1ubuntu2 [6857 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:27 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el clang-6.0 ppc64el 1:6.0-1ubuntu2 [8593 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:28 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el clang ppc64el 1:6.0-41~exp5~ubuntu1 [3220 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:29 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el cmake-data all 3.10.2-1ubuntu2.18.04.1 [1332 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:30 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libarchive13 ppc64el 3.2.2-3.1ubuntu0.7 [351 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:31 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el librhash0 ppc64el 1.3.6-2 [81.8 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:32 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el cmake ppc64el 3.10.2-1ubuntu2.18.04.1 [3552 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:33 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libisl19 ppc64el 0.19-1 [588 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:34 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el libmpc3 ppc64el 1.1.0-1 [40.5 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:35 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el cpp-7 ppc64el 7.5.0-3ubuntu1~18.04 [8883 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:36 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el cpp ppc64el 4:7.4.0-1ubuntu2.3 [27.7 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:37 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libcc1-0 ppc64el 8.4.0-1ubuntu1~18.04 [40.7 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:38 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el gcc-7 ppc64el 7.5.0-3ubuntu1~18.04 [9575 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:39 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el gcc ppc64el 4:7.4.0-1ubuntu2.3 [5204 B][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:40 http://ports.ubuntu.com/ubuntu-ports bionic/main ppc64el make ppc64el 4.1-9.1ubuntu1 [161 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:41 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el scons all 3.0.1-1 [462 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 66.4 MB in 4s (15.2 MB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package autotools-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 31724 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../00-autotools-dev_20180224.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking autotools-dev (20180224.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package binutils-common:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../01-binutils-common_2.30-21ubuntu1~18.04.5_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking binutils-common:ppc64el (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libbinutils:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../02-libbinutils_2.30-21ubuntu1~18.04.5_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libbinutils:ppc64el (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package binutils-powerpc64le-linux-gnu.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../03-binutils-powerpc64le-linux-gnu_2.30-21ubuntu1~18.04.5_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking binutils-powerpc64le-linux-gnu (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package binutils.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../04-binutils_2.30-21ubuntu1~18.04.5_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking binutils (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package ccache.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../05-ccache_3.4.1-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking ccache (3.4.1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libjsoncpp1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../06-libjsoncpp1_1.7.4-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libjsoncpp1:ppc64el (1.7.4-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libllvm6.0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../07-libllvm6.0_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libllvm6.0:ppc64el (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package gcc-7-base:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../08-gcc-7-base_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking gcc-7-base:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgomp1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../09-libgomp1_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgomp1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libitm1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../10-libitm1_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libitm1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libatomic1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../11-libatomic1_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libatomic1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libasan4:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../12-libasan4_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libasan4:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package liblsan0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../13-liblsan0_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking liblsan0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libtsan0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../14-libtsan0_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libtsan0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libubsan0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../15-libubsan0_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libubsan0:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgcc-7-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../16-libgcc-7-dev_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgcc-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libc-dev-bin.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../17-libc-dev-bin_2.27-3ubuntu1.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libc-dev-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package linux-libc-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../18-linux-libc-dev_4.15.0-147.151_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking linux-libc-dev:ppc64el (4.15.0-147.151) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libc6-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../19-libc6-dev_2.27-3ubuntu1.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libc6-dev:ppc64el (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libstdc++-7-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../20-libstdc++-7-dev_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libstdc++-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgc1c2:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../21-libgc1c2_1%3a7.4.2-8ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgc1c2:ppc64el (1:7.4.2-8ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libobjc4:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../22-libobjc4_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libobjc4:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libobjc-7-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../23-libobjc-7-dev_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libobjc-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libclang-common-6.0-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../24-libclang-common-6.0-dev_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libclang-common-6.0-dev (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libclang1-6.0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../25-libclang1-6.0_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libclang1-6.0:ppc64el (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package clang-6.0.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../26-clang-6.0_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking clang-6.0 (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package clang.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../27-clang_1%3a6.0-41~exp5~ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking clang (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package cmake-data.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../28-cmake-data_3.10.2-1ubuntu2.18.04.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking cmake-data (3.10.2-1ubuntu2.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libarchive13:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../29-libarchive13_3.2.2-3.1ubuntu0.7_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libarchive13:ppc64el (3.2.2-3.1ubuntu0.7) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package librhash0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../30-librhash0_1.3.6-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking librhash0:ppc64el (1.3.6-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package cmake.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../31-cmake_3.10.2-1ubuntu2.18.04.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking cmake (3.10.2-1ubuntu2.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libisl19:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../32-libisl19_0.19-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libisl19:ppc64el (0.19-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libmpc3:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../33-libmpc3_1.1.0-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libmpc3:ppc64el (1.1.0-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package cpp-7.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../34-cpp-7_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking cpp-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package cpp.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../35-cpp_4%3a7.4.0-1ubuntu2.3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking cpp (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libcc1-0:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../36-libcc1-0_8.4.0-1ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libcc1-0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package gcc-7.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../37-gcc-7_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking gcc-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package gcc.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../38-gcc_4%3a7.4.0-1ubuntu2.3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking gcc (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package make.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../39-make_4.1-9.1ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking make (4.1-9.1ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package scons.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../40-scons_3.0.1-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking scons (3.0.1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgomp1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libatomic1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libcc1-0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up ccache (3.4.1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Updating symlinks in /usr/lib/ccache ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up make (4.1-9.1ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libllvm6.0:ppc64el (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libarchive13:ppc64el (3.2.2-3.1ubuntu0.7) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libtsan0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up linux-libc-dev:ppc64el (4.15.0-147.151) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgc1c2:ppc64el (1:7.4.2-8ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libclang1-6.0:ppc64el (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up cmake-data (3.10.2-1ubuntu2.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up librhash0:ppc64el (1.3.6-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up liblsan0:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up gcc-7-base:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up binutils-common:ppc64el (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up scons (3.0.1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up autotools-dev (20180224.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libmpc3:ppc64el (1.1.0-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libc-dev-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libc6-dev:ppc64el (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libitm1:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libisl19:ppc64el (0.19-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libjsoncpp1:ppc64el (1.7.4-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libclang-common-6.0-dev (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libobjc4:ppc64el (8.4.0-1ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libasan4:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libbinutils:ppc64el (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libubsan0:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up binutils-powerpc64le-linux-gnu (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgcc-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up cpp-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libstdc++-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libobjc-7-dev:ppc64el (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up binutils (2.30-21ubuntu1~18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up cmake (3.10.2-1ubuntu2.18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up cpp (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up gcc-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up gcc (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up clang-6.0 (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up clang (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + apt-get install curl wget openssl libssl-dev rsync -y --no-install-recommends[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: curl is already the newest version (7.58.0-2ubuntu3.13).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: openssl is already the newest version (1.1.1-1ubuntu2.1~18.04.9).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rsync is already the newest version (3.1.2-2.1ubuntu1.1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rsync set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: wget is already the newest version (1.19.4-1ubuntu2.2).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libssl-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libssl-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 1562 kB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 8437 kB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main ppc64el libssl-dev ppc64el 1.1.1-1ubuntu2.1~18.04.9 [1562 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 1562 kB in 1s (1588 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libssl-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 37545 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../libssl-dev_1.1.1-1ubuntu2.1~18.04.9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libssl-dev:ppc64el (1.1.1-1ubuntu2.1~18.04.9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libssl-dev:ppc64el (1.1.1-1ubuntu2.1~18.04.9) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + call_build_function func_name=__install_python[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + local func_name dist_codename func_name=__install_python[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + local func_arch_name func_dist_codename func_dist_arch_name[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ uname -m[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + ARCH=ppc64le[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + '[' -z '' ']'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ source /etc/os-release[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ NAME=Ubuntu[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ VERSION='18.04.5 LTS (Bionic Beaver)'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ ID=ubuntu[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ ID_LIKE=debian[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ PRETTY_NAME='Ubuntu 18.04.5 LTS'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ VERSION_ID=18.04[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ HOME_URL=https://www.ubuntu.com/[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ SUPPORT_URL=https://help.ubuntu.com/[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ BUG_REPORT_URL=https://bugs.launchpad.net/ubuntu/[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ PRIVACY_POLICY_URL=https://www.ubuntu.com/legal/terms-and-policies/privacy-policy[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ VERSION_CODENAME=bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: +++ UBUNTU_CODENAME=bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ echo bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + dist_codename=bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + func_arch_name=__install_python_ppc64le[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + func_dist_codename=__install_python_bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + func_dist_arch_name=__install_python_bionic_ppc64le[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ declare -F __install_python_bionic_ppc64le[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + '[' ']'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ declare -F __install_python_bionic[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + '[' ']'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ++ declare -F __install_python_ppc64le[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + '[' ']'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_python[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + apt install python python-pip -y --no-install-recommends[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: python is already the newest version (2.7.15~rc1-1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: python set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Recommended packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   build-essential python-all-dev python-setuptools python-wheel[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   python-pip python-pip-whl[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 1803 kB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 2530 kB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el python-pip-whl all 9.0.1-2.3~ubuntu1.18.04.5 [1653 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el python-pip all 9.0.1-2.3~ubuntu1.18.04.5 [151 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 1803 kB in 6s (327 kB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python-pip-whl.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 37663 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../python-pip-whl_9.0.1-2.3~ubuntu1.18.04.5_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python-pip-whl (9.0.1-2.3~ubuntu1.18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python-pip.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../python-pip_9.0.1-2.3~ubuntu1.18.04.5_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python-pip (9.0.1-2.3~ubuntu1.18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python-pip-whl (9.0.1-2.3~ubuntu1.18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python-pip (9.0.1-2.3~ubuntu1.18.04.5) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/install-docker.sh[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + printf '#!/bin/sh\nexit 101'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + chmod +x /usr/sbin/policy-rc.d[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + apt-get install -y docker.io pigz --no-install-recommends[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading package lists...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Building dependency tree...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Reading state information...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following additional packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   containerd runc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   aufs-tools cgroupfs-mount | cgroup-lite debootstrap docker-doc rinse[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   zfs-fuse | zfsutils[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Recommended packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   ubuntu-fan[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   containerd docker.io pigz runc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 53.5 MB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 307 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/universe ppc64el pigz ppc64el 2.4-1 [67.4 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:2 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el runc ppc64el 1.0.0~rc95-0ubuntu1~18.04.1 [3494 kB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:3 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el containerd ppc64el 1.4.4-0ubuntu1~18.04.2 [22.8 MB][0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe ppc64el docker.io ppc64el 20.10.2-0ubuntu1~18.04.2 [27.1 MB][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dpkg-preconfigure: unable to re-open stdin: No such file or directory[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Fetched 53.5 MB in 2s (21.4 MB/s)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package pigz.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 37797 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../pigz_2.4-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking pigz (2.4-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package runc.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../runc_1.0.0~rc95-0ubuntu1~18.04.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking runc (1.0.0~rc95-0ubuntu1~18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package containerd.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../containerd_1.4.4-0ubuntu1~18.04.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking containerd (1.4.4-0ubuntu1~18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package docker.io.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../docker.io_20.10.2-0ubuntu1~18.04.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking docker.io (20.10.2-0ubuntu1~18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up runc (1.0.0~rc95-0ubuntu1~18.04.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up containerd (1.4.4-0ubuntu1~18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: /usr/sbin/policy-rc.d returned 101, not running 'start containerd.service'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up pigz (2.4-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up docker.io (20.10.2-0ubuntu1~18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Adding group `docker' (GID 115) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Done.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: invoke-rc.d: policy-rc.d denied execution of start.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + rm -f /usr/sbin/policy-rc.d[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + mkdir -p /etc/docker[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + id travis[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: uid=1000(travis) gid=1000(travis) groups=1000(travis)[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + usermod -aG docker travis[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/gitconfig.sh[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Uploading files/docker.daemon.json.lxd => /etc/docker/daemon.json[0m
+docker.daemon.json.lxd 0 B / 84 B [----------------------------------------------------------------------------------------------------------------------------]   0.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [===========================================================================================================================] 100.00%
+[1Adocker.daemon.json.lxd 84 B / 84 B [========================================================================================================================] 100.00% 2s
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: /tmp/packer-shell998863320[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/ruby.sh[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gawk is already the newest version (1:4.1.4+dfsg-1build1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gawk set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: make is already the newest version (4.1-9.1ubuntu1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dirmngr is already the newest version (2.2.4-1ubuntu1.4).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dirmngr set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gcc is already the newest version (4:7.4.0-1ubuntu2.3).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: libc6-dev is already the newest version (2.27-3ubuntu1.4).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: libc6-dev set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: libssl-dev is already the newest version (1.1.1-1ubuntu2.1~18.04.9).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: patch is already the newest version (2.7.6-2ubuntu1.1).[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: patch set to manually installed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following package was automatically installed and is no longer required:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libfreetype6[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Use 'sudo apt autoremove' to remove it.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Suggested packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   autoconf-archive gnu-standards autoconf-doc gettext bison-doc debian-keyring[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   gcc-7-doc libstdc++6-7-dbg bzr gmp-doc libgmp10-doc libmpfr-dev ncurses-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   readline-doc sqlite3-doc libtool-doc gfortran | fortran95-compiler gcj-jdk[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libyaml-doc m4-doc[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Recommended packages:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   build-essential fakeroot libalgorithm-merge-perl libfile-fcntllock-perl[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libltdl-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: The following NEW packages will be installed:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   autoconf automake bison dpkg-dev g++ g++-7 gnupg2 libbison-dev libdpkg-perl[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libffi-dev libgdbm-dev libgmp-dev libgmpxx4ldbl libncurses5-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   libreadline-dev libsqlite3-dev libtinfo-dev libtool libyaml-dev m4[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   pkg-config sqlite3 zlib1g-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 0 upgraded, 23 newly installed, 0 to remove and 0 not upgraded.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Need to get 15.3 MB of archives.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: After this operation, 50.1 MB of additional disk space will be used.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package m4.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 38063 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../00-m4_1.4.18-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking m4 (1.4.18-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package autoconf.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../01-autoconf_2.69-11_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking autoconf (2.69-11) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package automake.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../02-automake_1%3a1.15.1-3ubuntu2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking automake (1:1.15.1-3ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libbison-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../03-libbison-dev_2%3a3.0.4.dfsg-1build1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libbison-dev:ppc64el (2:3.0.4.dfsg-1build1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package bison.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../04-bison_2%3a3.0.4.dfsg-1build1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking bison (2:3.0.4.dfsg-1build1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libdpkg-perl.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../05-libdpkg-perl_1.19.0.5ubuntu2.3_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libdpkg-perl (1.19.0.5ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package dpkg-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../06-dpkg-dev_1.19.0.5ubuntu2.3_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking dpkg-dev (1.19.0.5ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package g++-7.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../07-g++-7_7.5.0-3ubuntu1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking g++-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package g++.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../08-g++_4%3a7.4.0-1ubuntu2.3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking g++ (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgdbm-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../09-libgdbm-dev_1.14.1-6_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgdbm-dev:ppc64el (1.14.1-6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgmpxx4ldbl:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../10-libgmpxx4ldbl_2%3a6.1.2+dfsg-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgmpxx4ldbl:ppc64el (2:6.1.2+dfsg-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libgmp-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../11-libgmp-dev_2%3a6.1.2+dfsg-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libgmp-dev:ppc64el (2:6.1.2+dfsg-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libtinfo-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../12-libtinfo-dev_6.1-1ubuntu1.18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libtinfo-dev:ppc64el (6.1-1ubuntu1.18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libncurses5-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../13-libncurses5-dev_6.1-1ubuntu1.18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libncurses5-dev:ppc64el (6.1-1ubuntu1.18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libreadline-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../14-libreadline-dev_7.0-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libreadline-dev:ppc64el (7.0-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libsqlite3-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../15-libsqlite3-dev_3.22.0-1ubuntu0.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libsqlite3-dev:ppc64el (3.22.0-1ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libtool.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../16-libtool_2.4.6-2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libtool (2.4.6-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package pkg-config.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../17-pkg-config_0.29.1-0ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking pkg-config (0.29.1-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package sqlite3.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../18-sqlite3_3.22.0-1ubuntu0.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking sqlite3 (3.22.0-1ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package zlib1g-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../19-zlib1g-dev_1%3a1.2.11.dfsg-0ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking zlib1g-dev:ppc64el (1:1.2.11.dfsg-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package gnupg2.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../20-gnupg2_2.2.4-1ubuntu1.4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking gnupg2 (2.2.4-1ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libffi-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../21-libffi-dev_3.2.1-8_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libffi-dev:ppc64el (3.2.1-8) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libyaml-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../22-libyaml-dev_0.1.7-2ubuntu3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libyaml-dev:ppc64el (0.1.7-2ubuntu3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libtool (2.4.6-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgdbm-dev:ppc64el (1.14.1-6) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libsqlite3-dev:ppc64el (3.22.0-1ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up g++-7 (7.5.0-3ubuntu1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libdpkg-perl (1.19.0.5ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libtinfo-dev:ppc64el (6.1-1ubuntu1.18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libffi-dev:ppc64el (3.2.1-8) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libyaml-dev:ppc64el (0.1.7-2ubuntu3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up m4 (1.4.18-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up sqlite3 (3.22.0-1ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libncurses5-dev:ppc64el (6.1-1ubuntu1.18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up gnupg2 (2.2.4-1ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up dpkg-dev (1.19.0.5ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libreadline-dev:ppc64el (7.0-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libbison-dev:ppc64el (2:3.0.4.dfsg-1build1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up g++ (4:7.4.0-1ubuntu2.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up bison (2:3.0.4.dfsg-1build1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/bison.yacc to provide /usr/bin/yacc (yacc) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgmpxx4ldbl:ppc64el (2:6.1.2+dfsg-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up zlib1g-dev:ppc64el (1:1.2.11.dfsg-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libgmp-dev:ppc64el (2:6.1.2+dfsg-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up autoconf (2.69-11) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up pkg-config (0.29.1-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up automake (1:1.15.1-3ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for ccache (3.4.1-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Updating symlinks in /usr/lib/ccache ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for install-info (6.5.0.dfsg.1-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: keybox '/home/travis/.gnupg/pubring.kbx' created[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: key 3804BB82D39DC0E3: 47 signatures not checked due to missing keys[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: /home/travis/.gnupg/trustdb.gpg: trustdb created[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: key 3804BB82D39DC0E3: public key "Michal Papis (RVM signing) <mpapis@gmail.com>" imported[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: Total number processed: 1[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg:               imported: 1[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: no ultimately trusted keys found[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: key 105BD0E739499BDB: public key "Piotr Kuczynski <piotr.kuczynski@gmail.com>" imported[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: Total number processed: 1[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg:               imported: 1[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Downloading https://github.com/rvm/rvm/archive/1.29.12.tar.gz[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Downloading https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: Signature made Fri Jan 15 18:46:22 2021 UTC[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg:                using RSA key 7D2BAF1CF37B13E2069D6956105BD0E739499BDB[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: Good signature from "Piotr Kuczynski <piotr.kuczynski@gmail.com>" [unknown][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg: WARNING: This key is not certified with a trusted signature![0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: gpg:          There is no indication that the signature belongs to the owner.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Primary key fingerprint: 7D2B AF1C F37B 13E2 069D  6956 105B D0E7 3949 9BDB[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: GPG verified '/home/travis/.rvm/archives/rvm-1.29.12.tgz'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing RVM to /home/travis/.rvm/[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     Adding rvm PATH line to /home/travis/.profile /home/travis/.mkshrc /home/travis/.bashrc /home/travis/.zshrc.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     Adding rvm loading line to /home/travis/.profile /home/travis/.bash_profile /home/travis/.zlogin.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installation of RVM in /home/travis/.rvm/ is almost complete:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   * To start using RVM you need to run `source /home/travis/.rvm/scripts/rvm`[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     in all your open shell windows, in rare cases you need to reopen all shell windows.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: <warn>Thanks for installing RVM 🙏</warn>[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Please consider donating to our open collective to help us maintain RVM.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 👉  Donate: <code>https://opencollective.com/rvm/donate</code>[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_autoupdate_flag='0'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_binary_flag='1'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_fuzzy_flag='1'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_gem_options='--no-document'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_max_time_flag='5'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_path='/home/travis/.rvm'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_project_rvmrc='0'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_remote_server_type4='rubies'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_remote_server_url4='https://s3.amazonaws.com/travis-rubies/binaries'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_remote_server_verify_downloads4='1'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_silence_path_mismatch_check_flag='1'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_user_install_flag='1'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_with_default_gems='rake bundler'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_without_gems='rubygems-bundler'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: rvm_autolibs_flag='read-fail'[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Searching for binary rubies, this might take some time.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Found remote file https://rubies.travis-ci.org/ubuntu/18.04/ppc64le/ruby-2.7.0.tar.bz2[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Checking requirements for ubuntu.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Requirements installation successful.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #configure[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #download[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ######################################################################## 100.0%[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: No checksum for downloaded archive, recording checksum in user configuration.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #validate archive[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #extract[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #validate binary[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #setup[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #gemset created /home/travis/.rvm/gems/ruby-2.7.0@global[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.7.0 - #importing gemset /home/travis/.rvm/gemsets/global.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|..[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.7.0 - #generating global wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.7.0 - #uninstalling gem rubygems-bundler-1.4.5[0m|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.7.0 - #gemset created /home/travis/.rvm/gems/ruby-2.7.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.7.0 - #importing gemset /home/travis/.rvm/gemsets/default.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.7.0 - #generating default wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Searching for binary rubies, this might take some time.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Found remote file https://rubies.travis-ci.org/ubuntu/18.04/ppc64le/ruby-2.6.3.tar.bz2[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Checking requirements for ubuntu.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Requirements installation successful.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #configure[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #download[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ######################################################################## 100.0%[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: No checksum for downloaded archive, recording checksum in user configuration.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #validate archive[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #extract[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #validate binary[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #setup[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #gemset created /home/travis/.rvm/gems/ruby-2.6.3@global[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.3 - #importing gemset /home/travis/.rvm/gemsets/global.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|..[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.3 - #generating global wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.3 - #uninstalling gem rubygems-bundler-1.4.5[0m|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.3 - #gemset created /home/travis/.rvm/gems/ruby-2.6.3[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.3 - #importing gemset /home/travis/.rvm/gemsets/default.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.3 - #generating default wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Searching for binary rubies, this might take some time.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Found remote file https://rubies.travis-ci.org/ubuntu/18.04/ppc64le/ruby-2.6.5.tar.bz2[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Checking requirements for ubuntu.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Requirements installation successful.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #configure[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #download[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ######################################################################## 100.0%[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: No checksum for downloaded archive, recording checksum in user configuration.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #validate archive[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #extract[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #validate binary[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #setup[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #gemset created /home/travis/.rvm/gems/ruby-2.6.5@global[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.5 - #importing gemset /home/travis/.rvm/gemsets/global.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|..[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.5 - #generating global wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.5 - #uninstalling gem rubygems-bundler-1.4.5[0m|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: ruby-2.6.5 - #gemset created /home/travis/.rvm/gems/ruby-2.6.5[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.5 - #importing gemset /home/travis/.rvm/gemsets/default.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [32mruby-2.6.5 - #generating default wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Using /home/travis/.rvm/gems/ruby-2.7.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Successfully installed bundler-2.2.20[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Parsing documentation for bundler-2.2.20[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing ri documentation for bundler-2.2.20[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Done installing documentation for bundler after 6 seconds[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 1 gem installed[0m
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Provisioning with shell script: scripts/python.sh[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + export DEBIAN_FRONTEND=noninteractive[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + DEBIAN_FRONTEND=noninteractive[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_packages[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + sudo apt-get update -yqq[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + sudo apt-get install -yqq --no-install-suggests --no-install-recommends build-essential python python3 python3-dev curl libbz2-dev liblzma-dev libncurses-dev libreadline-dev libsqlite3-dev libssl-dev llvm make tk-dev wget zlib1g-dev[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package x11-common.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: (Reading database ... 38979 files and directories currently installed.)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../00-x11-common_1%3a7.7+19ubuntu7.1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: dpkg-query: no packages found matching nux-tools[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking x11-common (1:7.7+19ubuntu7.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libice6:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../01-libice6_2%3a1.0.9-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libice6:ppc64el (2:1.0.9-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libsm6:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../02-libsm6_2%3a1.2.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libsm6:ppc64el (2:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package fonts-dejavu-core.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../03-fonts-dejavu-core_2.37-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking fonts-dejavu-core (2.37-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package fontconfig-config.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../04-fontconfig-config_2.12.6-0ubuntu2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking fontconfig-config (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libfontconfig1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../05-libfontconfig1_2.12.6-0ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libfontconfig1:ppc64el (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxrender1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../06-libxrender1_1%3a0.9.10-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxrender1:ppc64el (1:0.9.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxft2:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../07-libxft2_2.3.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxft2:ppc64el (2.3.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxss1:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../08-libxss1_1%3a1.2.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxss1:ppc64el (1:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package binfmt-support.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../09-binfmt-support_2.1.8-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking binfmt-support (2.1.8-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package build-essential.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../10-build-essential_12.4ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking build-essential (12.4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python3-lib2to3.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../11-python3-lib2to3_3.6.9-1~18.04_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python3-lib2to3 (3.6.9-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python3-distutils.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../12-python3-distutils_3.6.9-1~18.04_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python3-distutils (3.6.9-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package dh-python.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../13-dh-python_3.20180325ubuntu2_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking dh-python (3.20180325ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libbz2-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../14-libbz2-dev_1.0.6-8.1ubuntu0.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libbz2-dev:ppc64el (1.0.6-8.1ubuntu0.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libexpat1-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../15-libexpat1-dev_2.2.5-3ubuntu0.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libexpat1-dev:ppc64el (2.2.5-3ubuntu0.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpng-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../16-libpng-dev_1.6.34-1ubuntu0.18.04.2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpng-dev:ppc64el (1.6.34-1ubuntu0.18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libfreetype6-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../17-libfreetype6-dev_2.8.1-2ubuntu2.1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libfreetype6-dev:ppc64el (2.8.1-2ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libfontconfig1-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../18-libfontconfig1-dev_2.12.6-0ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libfontconfig1-dev:ppc64el (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package xorg-sgml-doctools.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../19-xorg-sgml-doctools_1%3a1.11-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking xorg-sgml-doctools (1:1.11-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package x11proto-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../20-x11proto-dev_2018.4-4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking x11proto-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package x11proto-core-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../21-x11proto-core-dev_2018.4-4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking x11proto-core-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libice-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../22-libice-dev_2%3a1.0.9-2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libice-dev:ppc64el (2:1.0.9-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpthread-stubs0-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../23-libpthread-stubs0-dev_0.3-4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpthread-stubs0-dev:ppc64el (0.3-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpython3.6-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../24-libpython3.6-dev_3.6.9-1~18.04ubuntu1.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpython3.6-dev:ppc64el (3.6.9-1~18.04ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libpython3-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../25-libpython3-dev_3.6.7-1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libpython3-dev:ppc64el (3.6.7-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libsm-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../26-libsm-dev_2%3a1.2.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libsm-dev:ppc64el (2:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libtcl8.6:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../27-libtcl8.6_8.6.8+dfsg-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libtcl8.6:ppc64el (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libtk8.6:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../28-libtk8.6_8.6.8-4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libtk8.6:ppc64el (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxau-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../29-libxau-dev_1%3a1.0.8-1ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxau-dev:ppc64el (1:1.0.8-1ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxdmcp-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../30-libxdmcp-dev_1%3a1.1.2-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxdmcp-dev:ppc64el (1:1.1.2-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package xtrans-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../31-xtrans-dev_1.3.5-1_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking xtrans-dev (1.3.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxcb1-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../32-libxcb1-dev_1.13-2~ubuntu18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxcb1-dev:ppc64el (1.13-2~ubuntu18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libx11-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../33-libx11-dev_2%3a1.6.4-3ubuntu0.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libx11-dev:ppc64el (2:1.6.4-3ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package x11proto-xext-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../34-x11proto-xext-dev_2018.4-4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking x11proto-xext-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxext-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../35-libxext-dev_2%3a1.3.3-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxext-dev:ppc64el (2:1.3.3-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxrender-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../36-libxrender-dev_1%3a0.9.10-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxrender-dev:ppc64el (1:0.9.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxft-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../37-libxft-dev_2.3.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxft-dev (2.3.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package x11proto-scrnsaver-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../38-x11proto-scrnsaver-dev_2018.4-4_all.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking x11proto-scrnsaver-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxss-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../39-libxss-dev_1%3a1.2.2-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxss-dev:ppc64el (1:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxt6:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../40-libxt6_1%3a1.1.5-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxt6:ppc64el (1:1.1.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package libxt-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../41-libxt-dev_1%3a1.1.5-1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking libxt-dev:ppc64el (1:1.1.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package llvm-6.0-runtime.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../42-llvm-6.0-runtime_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking llvm-6.0-runtime (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package llvm-runtime.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../43-llvm-runtime_1%3a6.0-41~exp5~ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking llvm-runtime (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package llvm-6.0.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../44-llvm-6.0_1%3a6.0-1ubuntu2_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking llvm-6.0 (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package llvm.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../45-llvm_1%3a6.0-41~exp5~ubuntu1_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking llvm (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python3.6-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../46-python3.6-dev_3.6.9-1~18.04ubuntu1.4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python3.6-dev (3.6.9-1~18.04ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package python3-dev.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../47-python3-dev_3.6.7-1~18.04_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking python3-dev (3.6.7-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tcl8.6.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../48-tcl8.6_8.6.8+dfsg-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tcl8.6 (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tcl.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../49-tcl_8.6.0+9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tcl (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tcl8.6-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../50-tcl8.6-dev_8.6.8+dfsg-3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tcl8.6-dev:ppc64el (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tcl-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../51-tcl-dev_8.6.0+9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tcl-dev:ppc64el (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tk8.6.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../52-tk8.6_8.6.8-4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tk8.6 (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tk.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../53-tk_8.6.0+9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tk (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tk8.6-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../54-tk8.6-dev_8.6.8-4_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tk8.6-dev:ppc64el (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package tk-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../55-tk-dev_8.6.0+9_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking tk-dev:ppc64el (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Selecting previously unselected package liblzma-dev:ppc64el.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Preparing to unpack .../56-liblzma-dev_5.2.2-1.3_ppc64el.deb ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unpacking liblzma-dev:ppc64el (5.2.2-1.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up binfmt-support (2.1.8-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/status for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: python3.6 already enabled in kernel.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/status for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/register for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to enable binary format llvm-6.0-runtime.binfmt[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/status for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: python2.7 already enabled in kernel.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Created symlink /etc/systemd/system/multi-user.target.wants/binfmt-support.service → /lib/systemd/system/binfmt-support.service.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Job for binfmt-support.service failed because the control process exited with error code.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: See "systemctl status binfmt-support.service" and "journalctl -xe" for details.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: invoke-rc.d: initscript binfmt-support, action "start" failed.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: [0;1;31m●[0m binfmt-support.service - Enable support for additional executable binary formats[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    Loaded: loaded (/lib/systemd/system/binfmt-support.service; enabled; vendor preset: enabled)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2021-06-23 10:14:53 UTC; 38ms ago[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:      Docs: man:update-binfmts(8)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Process: 27615 ExecStart=/usr/sbin/update-binfmts --enable [0;1;31m(code=exited, status=2)[0m[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:  Main PID: 27615 (code=exited, status=2)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libbz2-dev:ppc64el (1.0.6-8.1ubuntu0.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up build-essential (12.4ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpthread-stubs0-dev:ppc64el (0.3-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up fonts-dejavu-core (2.37-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up xorg-sgml-doctools (1:1.11-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up x11proto-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up llvm-6.0-runtime (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/status for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to open /proc/sys/fs/binfmt_misc/register for writing: Permission denied[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-binfmts: warning: unable to enable binary format llvm-6.0-runtime.binfmt[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up llvm-runtime (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up xtrans-dev (1.3.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up x11proto-xext-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxdmcp-dev:ppc64el (1:1.1.2-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up llvm-6.0 (1:6.0-1ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libexpat1-dev:ppc64el (2.2.5-3ubuntu0.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxrender1:ppc64el (1:0.9.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up x11proto-scrnsaver-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libtcl8.6:ppc64el (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up liblzma-dev:ppc64el (5.2.2-1.3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpng-dev:ppc64el (1.6.34-1ubuntu0.18.04.2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python3-lib2to3 (3.6.9-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up x11-common (1:7.7+19ubuntu7.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python3-distutils (3.6.9-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up fontconfig-config (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up x11proto-core-dev (2018.4-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxss1:ppc64el (1:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxau-dev:ppc64el (1:1.0.8-1ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpython3.6-dev:ppc64el (3.6.9-1~18.04ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up llvm (1:6.0-41~exp5~ubuntu1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libfreetype6-dev:ppc64el (2.8.1-2ubuntu2.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tcl8.6 (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libice6:ppc64el (2:1.0.9-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxcb1-dev:ppc64el (1.13-2~ubuntu18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libx11-dev:ppc64el (2:1.6.4-3ubuntu0.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python3.6-dev (3.6.9-1~18.04ubuntu1.4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up dh-python (3.20180325ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tcl8.6-dev:ppc64el (8.6.8+dfsg-3) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libpython3-dev:ppc64el (3.6.7-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libfontconfig1:ppc64el (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libsm6:ppc64el (2:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tcl (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up python3-dev (3.6.7-1~18.04) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxrender-dev:ppc64el (1:0.9.10-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libice-dev:ppc64el (2:1.0.9-2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxext-dev:ppc64el (2:1.3.3-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxt6:ppc64el (1:1.1.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxft2:ppc64el (2.3.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tcl-dev:ppc64el (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libfontconfig1-dev:ppc64el (2.12.6-0ubuntu2) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libsm-dev:ppc64el (2:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libtk8.6:ppc64el (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxss-dev:ppc64el (1:1.2.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxft-dev (2.3.2-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up libxt-dev:ppc64el (1:1.1.5-1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tk8.6 (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tk8.6-dev:ppc64el (8.6.8-4) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tk (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Setting up tk-dev:ppc64el (8.6.0+9) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for systemd (237-3ubuntu10.48) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for man-db (2.8.3-2ubuntu0.1) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for ureadahead (0.100.0-21) ...[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Processing triggers for libc-bin (2.27-3ubuntu1.4) ...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_pip[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + wget https://bootstrap.pypa.io/pip/2.7/get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: --2021-06-23 10:31:29--  https://bootstrap.pypa.io/pip/2.7/get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Resolving bootstrap.pypa.io (bootstrap.pypa.io)... 151.101.52.175, 2a04:4e42:d::175[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Connecting to bootstrap.pypa.io (bootstrap.pypa.io)|151.101.52.175|:443... connected.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: HTTP request sent, awaiting response... 200 OK[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Length: 1908226 (1.8M) [text/x-python][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Saving to: ‘get-pip.py’[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:      0K .......... .......... .......... .......... ..........  2% 1.27M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     50K .......... .......... .......... .......... ..........  5% 6.13M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    100K .......... .......... .......... .......... ..........  8% 15.2K 38s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    150K .......... .......... .......... .......... .......... 10% 24.5M 28s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    200K .......... .......... .......... .......... .......... 13% 34.0M 22s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    250K .......... .......... .......... .......... .......... 16% 32.6M 17s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    300K .......... .......... .......... .......... .......... 18% 34.2M 14s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    350K .......... .......... .......... .......... .......... 21% 30.9M 12s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    400K .......... .......... .......... .......... .......... 24% 34.0M 11s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    450K .......... .......... .......... .......... .......... 26% 75.5M 9s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    500K .......... .......... .......... .......... .......... 29%  112M 8s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    550K .......... .......... .......... .......... .......... 32%  133M 7s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    600K .......... .......... .......... .......... .......... 34%  129M 6s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    650K .......... .......... .......... .......... .......... 37% 22.5M 6s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    700K .......... .......... .......... .......... .......... 40%  120M 5s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    750K .......... .......... .......... .......... .......... 42% 6.16M 4s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    800K .......... .......... .......... .......... .......... 45% 7.21M 4s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    850K .......... .......... .......... .......... .......... 48%  139M 4s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    900K .......... .......... .......... .......... .......... 50% 6.83M 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    950K .......... .......... .......... .......... .......... 53% 13.4M 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1000K .......... .......... .......... .......... .......... 56% 15.4M 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1050K .......... .......... .......... .......... .......... 59% 1.95M 2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1100K .......... .......... .......... .......... .......... 61%  124M 2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1150K .......... .......... .......... .......... .......... 64% 19.5K 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1200K .......... .......... .......... .......... .......... 67%  142M 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1250K .......... .......... .......... .......... .......... 69%  116M 3s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1300K .......... .......... .......... .......... .......... 72%  131M 2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1350K .......... .......... .......... .......... .......... 75%  149M 2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1400K .......... .......... .......... .......... .......... 77%  120M 2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1450K .......... .......... .......... .......... .......... 80%  127M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1500K .......... .......... .......... .......... .......... 83%  122M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1550K .......... .......... .......... .......... .......... 85%  150M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1600K .......... .......... .......... .......... .......... 88%  128M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1650K .......... .......... .......... .......... .......... 91%  115M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1700K .......... .......... .......... .......... .......... 93%  149M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1750K .......... .......... .......... .......... .......... 96%  115M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1800K .......... .......... .......... .......... .......... 99%  149M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1850K .......... ...                                        100%  269M=6.0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 2021-06-23 10:31:35 (312 KB/s) - ‘get-pip.py’ saved [1908226/1908226][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + sudo python get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: The directory '/home/travis/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting pip<21.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading pip-20.3.4-py2.py3-none-any.whl (1.5 MB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting setuptools<45[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading setuptools-44.1.1-py2.py3-none-any.whl (583 kB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting wheel[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading wheel-0.36.2-py2.py3-none-any.whl (35 kB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing collected packages: pip, setuptools, wheel[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Attempting uninstall: pip[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     Found existing installation: pip 9.0.1[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     Uninstalling pip-9.0.1:[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:       Successfully uninstalled pip-9.0.1[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Successfully installed pip-20.3.4 setuptools-44.1.1 wheel-0.36.2[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + pip install --user --upgrade setuptools wheel[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Requirement already up-to-date: setuptools in /usr/local/lib/python2.7/dist-packages (44.1.1)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Requirement already up-to-date: wheel in /usr/local/lib/python2.7/dist-packages (0.36.2)[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + rm -f get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + wget https://bootstrap.pypa.io/pip/3.5/get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: --2021-06-23 10:33:10--  https://bootstrap.pypa.io/pip/3.5/get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Resolving bootstrap.pypa.io (bootstrap.pypa.io)... 151.101.52.175, 2a04:4e42:d::175[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Connecting to bootstrap.pypa.io (bootstrap.pypa.io)|151.101.52.175|:443... connected.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: HTTP request sent, awaiting response... 200 OK[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Length: 1908223 (1.8M) [text/x-python][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Saving to: ‘get-pip.py’[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:      0K .......... .......... .......... .......... ..........  2% 2.14M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:     50K .......... .......... .......... .......... ..........  5% 1.05M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    100K .......... .......... .......... .......... ..........  8% 3.26M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    150K .......... .......... .......... .......... .......... 10% 34.7M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    200K .......... .......... .......... .......... .......... 13% 34.2M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    250K .......... .......... .......... .......... .......... 16% 5.02M 1s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    300K .......... .......... .......... .......... .......... 18% 7.50M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    350K .......... .......... .......... .......... .......... 21% 6.18M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    400K .......... .......... .......... .......... .......... 24%  109M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    450K .......... .......... .......... .......... .......... 26%  116M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    500K .......... .......... .......... .......... .......... 29% 97.6M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    550K .......... .......... .......... .......... .......... 32% 2.52M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    600K .......... .......... .......... .......... .......... 34% 41.9M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    650K .......... .......... .......... .......... .......... 37% 32.4M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    700K .......... .......... .......... .......... .......... 40% 41.3M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    750K .......... .......... .......... .......... .......... 42% 45.5M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    800K .......... .......... .......... .......... .......... 45%  104M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    850K .......... .......... .......... .......... .......... 48% 33.5M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    900K .......... .......... .......... .......... .......... 50% 50.0M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:    950K .......... .......... .......... .......... .......... 53%  157M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1000K .......... .......... .......... .......... .......... 56% 8.42M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1050K .......... .......... .......... .......... .......... 59%  153M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1100K .......... .......... .......... .......... .......... 61%  157M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1150K .......... .......... .......... .......... .......... 64%  124M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1200K .......... .......... .......... .......... .......... 67%  142M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1250K .......... .......... .......... .......... .......... 69%  132M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1300K .......... .......... .......... .......... .......... 72%  156M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1350K .......... .......... .......... .......... .......... 75%  156M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1400K .......... .......... .......... .......... .......... 77% 9.10M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1450K .......... .......... .......... .......... .......... 80% 63.6M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1500K .......... .......... .......... .......... .......... 83% 43.7M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1550K .......... .......... .......... .......... .......... 85% 58.3M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1600K .......... .......... .......... .......... .......... 88% 10.3M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1650K .......... .......... .......... .......... .......... 91%  110M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1700K .......... .......... .......... .......... .......... 93% 27.2M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1750K .......... .......... .......... .......... .......... 96%  122M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1800K .......... .......... .......... .......... .......... 99%  151M 0s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   1850K .......... ...                                        100%  124M=0.2s[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: 2021-06-23 10:33:10 (11.1 MB/s) - ‘get-pip.py’ saved [1908223/1908223][0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + sudo python3 get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: The directory '/home/travis/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting pip<21.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading pip-20.3.4-py2.py3-none-any.whl (1.5 MB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting setuptools[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading setuptools-57.0.0-py3-none-any.whl (821 kB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting wheel[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading wheel-0.36.2-py2.py3-none-any.whl (35 kB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing collected packages: wheel, setuptools, pip[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Successfully installed pip-20.3.4 setuptools-57.0.0 wheel-0.36.2[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: WARNING: You are using pip version 20.3.4; however, version 21.1.2 is available.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + rm -f get-pip.py[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + id travis[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: uid=1000(travis) gid=1000(travis) groups=1000(travis),115(docker)[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + chown -R travis: /home/travis/.cache/pip/[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + install_dir=/opt/pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + git clone -q https://github.com/pyenv/pyenv.git /opt/pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + sudo /opt/pyenv/plugins/python-build/install.sh[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: uid=1000(travis) gid=1000(travis) groups=1000(travis),115(docker)[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + id travis[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + chown -R travis: /opt/pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + export PATH=/home/travis/.rvm/gems/ruby-2.7.0/bin:/home/travis/.rvm/gems/ruby-2.7.0@global/bin:/home/travis/.rvm/rubies/ruby-2.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/travis/.rvm/bin:/opt/pyenv/bin[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + PATH=/home/travis/.rvm/gems/ruby-2.7.0/bin:/home/travis/.rvm/gems/ruby-2.7.0@global/bin:/home/travis/.rvm/rubies/ruby-2.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/travis/.rvm/bin:/opt/pyenv/bin[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + export PYENV_ROOT=/opt/pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + PYENV_ROOT=/opt/pyenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_virtualenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + virtualenv_root=/home/travis/virtualenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + pip install --user virtualenv==15.1.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Collecting virtualenv==15.1.0[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Downloading virtualenv-15.1.0-py2.py3-none-any.whl (1.8 MB)[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing collected packages: virtualenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   WARNING: The script virtualenv is installed in '/home/travis/.local/bin' which is not on PATH.[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832:   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Successfully installed virtualenv-15.1.0[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + mkdir -p /home/travis/virtualenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + id travis[0m
+[0;32m    lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: uid=1000(travis) gid=1000(travis) groups=1000(travis),115(docker)[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + chown -R travis: /home/travis/virtualenv[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + __install_default_python[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + PYTHON_CONFIGURE_OPTS='--enable-unicode=ucs4 --with-wide-unicode --enable-shared --enable-ipv6 --enable-loadable-sqlite-extensions --with-computed-gotos'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + PYTHON_CFLAGS='-g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security'[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: + pyenv install 3.6.0[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Downloading Python-3.6.0.tar.xz...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: -> https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Installing Python-3.6.0...[0m
+Cancelling build after receiving interrupt
+[1;32m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Unregistering and deleting deleting container...[0m
+[1;31m==> lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832: Error deleting container: LXD command error:[0m
+[1;31mBuild 'lxd-60d2bde5-6ec0-9de5-a07f-132f10ff4832' errored: Script exited with non-zero exit status: -1.Allowed exit codes are: [0][0m
+Cleanly cancelled builds after being interrupted.
